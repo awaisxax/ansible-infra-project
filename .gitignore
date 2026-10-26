@@ -1,0 +1,16 @@
+Icat << 'EOF' > .gitignore
+# SSH Keys & Credentials
+*.pem
+*.key
+id_rsa*
+.ssh/
+
+# Ansible retry files & caches
+*.retry
+.cache/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
